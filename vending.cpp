@@ -1,15 +1,23 @@
 #include <iostream>
+#include <string>
+#include <unordered_map>
 using namespace std;
 
 void process(){
+
     string choice;
     cout << "Select what you want";
     cin >> choice ;
 
-    switch (choice)
+    unordered_map<string,int> choice = {
+        {"Latte",1},{"Espresso",2},{"Mocha",3}
+    } ;
+    
+
+    switch ()
     {
-    case "Mocha":
-        /* code */
+    case :
+        
         break;
     
     default:
