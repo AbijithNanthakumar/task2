@@ -5,20 +5,22 @@ using namespace std;
 
 void process(){
 
+    
+
+    unordered_map<string,int> choicenum = {
+        {"Mocha",1},{"Latte",2},{"Espresso",3}
+    } ;
+
     string choice;
     cout << "Select what you want";
     cin >> choice ;
-
-    unordered_map<string,int> choice = {
-        {"Latte",1},{"Espresso",2},{"Mocha",3}
-    } ;
     
 
-    switch ()
+    switch (choicenum[choice])
     {
-    case :
+    case 1:
         
-        break;
+        
     
     default:
         break;
