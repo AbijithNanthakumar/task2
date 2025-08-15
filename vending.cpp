@@ -5,8 +5,6 @@ using namespace std;
 
 void process(){
 
-    
-
     unordered_map<string,int> choicenum = {
         {"Mocha",1},{"Latte",2},{"Espresso",3}
     } ;
@@ -32,16 +30,12 @@ void process(){
         break;
     }
     
-    
 }
-
 
 int main(){
     while(true){
         process();
-
-
-
+      
 
         bool isoff;
         cout << "Is power off?";
