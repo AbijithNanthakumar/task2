@@ -17,16 +17,16 @@ void process(){
     switch (choicenum[choice])
     {
     case 1:
-        cout << "Add Chocolate Powder";
+        cout << "Add Chocolate Powder ,\n";
     
     case 2:
-        cout << "Add Forthed Milk";
+        cout << "Add Forthed Milk ,\n";
 
     case 3: 
-       cout << "Add Hot Coffee";
+       cout << "Add Hot Coffee \n";
         break;
     default:
-        cout << "No such product available.";
+        cout << "No such product available.\n";
         break;
     }
     
@@ -38,7 +38,7 @@ int main(){
       
 
         string isoff;
-        cout << "Is power off?";
+        cout << "Is power off? \n";
         cin >> isoff;
         if(isoff == "Yes" || isoff == "yes"){
             break; 
