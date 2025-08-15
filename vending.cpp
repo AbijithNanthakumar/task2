@@ -12,7 +12,7 @@ void process(){
 
 
 
-    
+
 
     string  choice;
     cout << "Select what you want \n";
@@ -45,7 +45,7 @@ int main(){
         string isoff;
         cout << "Is power off? \n";
         cin >> isoff;
-        if(isoff == "Yes" || isoff == "yes"){
+        if(isoff == "Yes" || isoff == "yes" || isoff == "y"){
             break; 
         }
 
