@@ -19,10 +19,16 @@ void process(){
     switch (choicenum[choice])
     {
     case 1:
-        
-        
+        cout << "Add Chocolate Powder";
     
+    case 2:
+        cout << "Add Forthed Milk";
+
+    case 3: 
+       cout << "Add Hot Coffee";
+        break;
     default:
+        cout << "No such product available.";
         break;
     }
     
