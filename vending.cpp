@@ -9,8 +9,8 @@ void process(){
         {"Mocha",1},{"Latte",2},{"Espresso",3}
     } ;
 
-    string choice;
-    cout << "Select what you want";
+    string  choice;
+    cout << "Select what you want \n";
     cin >> choice ;
     
 
@@ -37,11 +37,13 @@ int main(){
         process();
       
 
-        bool isoff;
+        string isoff;
         cout << "Is power off?";
         cin >> isoff;
-        if(isoff){
-            return ;
+        if(isoff == "Yes" || isoff == "yes"){
+            break; 
         }
+
+        
     }
 }
